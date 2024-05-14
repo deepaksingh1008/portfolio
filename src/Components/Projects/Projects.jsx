@@ -10,6 +10,8 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiCss3,
+  SiRedux,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -23,8 +25,11 @@ import ReduxTool from './assets/Redux-toolkit.png'
 import videoHub from './assets/Video-Hub.png'
 import weatherApp from './assets/Weather-app.png'
 import movix from "./assets/movix.png"
-
-
+import note from './assets/note.png'
+import sorting from './assets/sorting.png'
+import compiler from './assets/compiler.png'
+import youtube from './assets/youtube.png'
+import stack from './assets/stack-overflow.png'
 export const Projects = () => {
   return (
     <>
@@ -36,25 +41,152 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src={dashboard}
-                    alt="Rockstar Games"
+                    src={stack}
+                    alt="stack overflow"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>E-Commerce Dashboard</h2>
+                <h2>Stack Overflow</h2>
                 <p>
-                  The E-commerce Dashboard project is a web application built using the MERN stack
-                  (MongoDB, Express.js, React.js, Node.js) that focuses on performing CRUD (Cre-
-                  ate, Read, Update, Delete) operations for managing an e-commerce platform. The
-                  project provides administrators with a centralized interface to handle various aspects
-                  of their online store efficiently.
+                  This comprehensive MERN (MongoDB, Express.js, React, Node.js) project with Redux integrates JWT (JSON Web Tokens) and bcrypt for secure user authentication, replicating Stack Overflow's core features. Users can securely register, log in, and access personalized features while ensuring data protection. The application includes features like asking, answering, and voting on questions with real-time updates, alongside advanced search, user profiles, and notifications. The combination of Redux for state management, JWT for secure authentication, and bcrypt for password hashing ensures scalability, security, and a seamless experience for developers seeking community-driven support in a protected environment.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <DiCss3 />
                   <FaReact />
+                  <IoLogoJavascript />
+                  <SiMongodb />
+                  <SiExpress />
+                  <SiRedux />
+                  <SiNodedotjs />
+                </div>
+                <div>
+                  <a
+                    href="https://stack-overflow-client-eight.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/deepaksingh1008/stack-overflow-client"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={youtube} alt="youtube clone" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>YouTube Clone</h2>
+                <p>
+                  his React project leverages the Rapid API to replicate core functionalities of YouTube. Users can search, view, and interact with videos, including comments and likes, within a familiar interface. Features include video recommendations, user authentication, and responsive design, providing an immersive and dynamic user experience akin to the original platform.
+                </p>
+                <div>
+                  <FaReact />
+                  <DiCss3 />
+                </div>
+                <div>
+                  <a
+                    href="https://youtube-clone-ten-dun.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See This Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/deepaksingh1008/youtube-clone"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={compiler}
+                    alt="compiler"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Code Compiler</h2>
+                <p>
+                  This React project integrates Rapid API to access compiler services, allowing users to compile and execute code snippets in multiple languages directly from the browser. Features include syntax highlighting, error handling, and language selection, enhancing user experience and enabling seamless coding experimentation and learning.
+                </p>
+                <div>
+
+                  <FaReact />
+                  <DiCss3 />
+                </div>
+                <div>
+                  <a
+                    href="https://code-compiler-tan.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/deepaksingh1008/code-compiler"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={sorting}
+                    alt="Sorting Visualization"
+                  />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Sorting Visualization</h2>
+                <p>
+                  This project utilizes HTML, CSS, and JavaScript to create an interactive sorting visualization. Users can observe various sorting algorithms in action, such as bubble sort or quicksort, visually demonstrating the efficiency and mechanics of each algorithm. Real-time feedback and customization options enhance user engagement and learning.
+                </p>
+                <div>
+                  <SiHtml5 />
+                  < DiCss3 />
+                  <SiJavascript />
                 </div>
                 <div>
                   <a
@@ -84,7 +216,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src={ntam}
+                    src={note}
                     alt="Sk-Weather-App"
                   />
                 </div>
@@ -102,7 +234,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://youtu.be/46B5w8ZQYDA"
+                    href="https://note-taking-app-client.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -111,7 +243,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/deepaksingh1008/NoteTakingApp-mern-stack"
+                    href="https://github.com/deepaksingh1008/note-taking-app-client"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -147,7 +279,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      View NPM Package
+                      See this Live
                     </span>
                   </a>
                   <a
@@ -277,7 +409,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      URL for the API
+                      See this Live
                     </span>
                   </a>
                   <a
@@ -306,13 +438,13 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Movie App</h2>
                 <p>
-                Developing a Movie App using React is a valuable learning experience that allows you to apply various frontend development concepts in a practical context. Prioritize creating a user-friendly and visually appealing interface that provides users with comprehensive information about movies and helps them discover new and exciting films to watch.
+                  Developing a Movie App using React is a valuable learning experience that allows you to apply various frontend development concepts in a practical context. Prioritize creating a user-friendly and visually appealing interface that provides users with comprehensive information about movies and helps them discover new and exciting films to watch.
                 </p>
                 <div>
-                  <FaReact/>
+                  <FaReact />
                   <DiCss3 />
                   <SiJavascript />
-                  
+
                 </div>
                 <div>
                   <a
@@ -350,7 +482,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Landing Page</h2>
                 <p>
-                Creating a Landing Page using React provides an excellent opportunity to showcase your frontend development skills and create an engaging and conversion-focused web presence. Focus on creating a user-friendly and visually appealing design that effectively communicates the value proposition of the product or service, encouraging visitors to take the desired actions.
+                  Creating a Landing Page using React provides an excellent opportunity to showcase your frontend development skills and create an engaging and conversion-focused web presence. Focus on creating a user-friendly and visually appealing design that effectively communicates the value proposition of the product or service, encouraging visitors to take the desired actions.
                 </p>
                 <div>
                   <FaReact />
@@ -380,50 +512,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src={ReduxTool}
-                    alt="Uniqlo-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Redux Toolkit Project</h2>
-                <p>
-                  Using redux we make a simple cart user can add and delete product from cart
-                </p>
-                <div>
-                  <FaReact/>
-                  <DiCss3 />
-                  <SiJavascript />
-                  
-                </div>
-                <div>
-                  <a
-                    href="https://redux-app-115746.netlify.app"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/deepaksingh1008/redux"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
 
