@@ -21,7 +21,7 @@ export const Contact = () => {
             data-aos="fade-right"
           >
             <a
-              href="https://www.linkedin.com/in/deepak-singh-a83263227/"
+              href="https://www.linkedin.com/in/deepaksingh1008/"
               target="_blank"
               rel="noreferrer"
             >

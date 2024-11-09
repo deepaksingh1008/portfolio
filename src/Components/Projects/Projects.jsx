@@ -101,7 +101,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://youtube-clone-ten-dun.vercel.app/"
+                    href="https://youtube-clone-jctk.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -190,7 +190,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://youtu.be/cj4QayXTvtk"
+                    href="https://sorting-visualizer-gilt-ten.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -274,7 +274,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://www.npmjs.com/package/apijs-mongo"
+                    href="https://video-hub-react-app.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -283,7 +283,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
+                    href="https://github.com/deepaksingh1008/video-hub-react-app"
                     target="_blank"
                     rel="noreferrer"
                   >

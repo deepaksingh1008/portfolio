@@ -3,7 +3,7 @@ import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 import profilePic from "../../assets/image.jpeg";
-import {SiGeeksforgeeks,SiLeetcode} from 'react-icons/si';
+import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si';
 
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -38,15 +38,15 @@ export const Introduction = () => {
               <h4>My Coding Profile</h4>
               <h4 className="different">
                 <span className="icons">
-                 <SiGeeksforgeeks/>
+                  <SiGeeksforgeeks />
                 </span>
-                <a href="https://auth.geeksforgeeks.org/user/codefellas123/practice">Geeks for Geeks</a>
+                <a href="https://auth.geeksforgeeks.org/user/codefellas12/practice">Geeks for Geeks</a>
               </h4>
               <h4 className="different">
                 <span className="icons">
-                 <SiLeetcode/>
+                  <SiLeetcode />
                 </span>
-                 <a href="https://leetcode.com/Deepak_Singh1810/">Leetcode</a>
+                <a href="https://leetcode.com/Deepak_Singh1810/">Leetcode</a>
               </h4>
               <h4 className="different">
                 <span className="icons">
